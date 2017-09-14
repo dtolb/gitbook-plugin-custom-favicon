@@ -15,6 +15,23 @@
     "url": "https://github.com/dtolb/gitbook-plugin-custom-favicon"
   },
   "author": "Dan Tolbert",
+  "contributors": [
+    "Luca Nardi"
+  ],
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "gitbook": {
+    "properties": {
+      "favicon": {
+        "type": "string",
+        "default": null,
+        "description": "path of custom favicon.ico"
+      },
+      "iosFavicon": {
+        "type": "string",
+        "default": null,
+        "description": "path of custom apple-touch-icon-precomposed-152.png"
+      }
+    }
+  }
 }
